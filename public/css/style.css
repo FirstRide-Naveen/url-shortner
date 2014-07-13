@@ -1,0 +1,32 @@
+body
+{
+	font: 12px sans-serif;
+	background-color:#000;
+	color:#fff;
+}
+
+h1,h2
+{
+	font-weight:normal;
+}
+.content
+{
+	width:100%;
+	text-align:center;
+	margin-top:250px;
+}
+
+input
+{
+	padding:10px;
+}
+
+#url
+{
+	width:300px;
+}
+
+a
+{
+	color:#fff;
+}
