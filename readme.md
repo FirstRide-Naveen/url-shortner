@@ -23,3 +23,17 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+### Steps to setup application to your localhost
+
+1) Clone project in any drive where u want to keep document root.
+2) Clone using git hub application.
+3) Enable opensll in php.ini in php folder.
+4) Install composer.
+5) Locate Project folder containing composer.json in cmd and hit command 'composer install'
+6) Go to C:\Windows\System32\drivers\etc, open hosts file using notepad(Run as administartor) and add your project name.
+7) Go to D:\wamp\bin\apache\Apache2.4.4\conf\extra, open httpd-vhosts.conf and create virtual host for your project by mentioning project directory.
+8) Create database 'url_shortner'.
+9) Run 'php artisan migrate' in cmd by locating project folder which will create required table to run project
+10) Restart server, and run your project.
+11) Here we go, type any long URL and get shorten URL, by clicking it will take you to long url-website. 
